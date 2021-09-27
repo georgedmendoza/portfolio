@@ -21,7 +21,8 @@ body{
 }
 
 .panel-right{
-    background: #eee;
+    background: #444A4A;
+    color: white;
 }
 
 /* make headshot small and round */
@@ -43,6 +44,19 @@ body{
 section{
     margin: 5rem;
     font-size: 1.2rem;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.info a{
+    text-decoration: none;
+    color: white;
 }
 
 @media (max-width: 768px) {
