@@ -20,6 +20,10 @@ body{
     color: white;
 }
 
+.panel-right{
+    background: #eee;
+}
+
 /* make headshot small and round */
 .avatar{
     width: 10rem;
