@@ -11,6 +11,7 @@ body{
 /* .intro-left{
     background: url(../images/background-1.jpg);
 } */
+
 .intro-left{
     background: url(../images/background-2.jpg);
     position: fixed;
@@ -23,11 +24,12 @@ body{
 .panel-right{
     background: #444A4A;
     color: white;
+    /* width: 70%; */
 }
 
 /* make headshot small and round */
 .avatar{
-    width: 10rem;
+    width: 8rem;
     height: 10rem;
     border-radius: 50%;
     margin: 1rem;
@@ -63,12 +65,42 @@ section{
     /* background-color: lightblue; */
     border: 1px solid white;
     margin-right: auto;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.project a{
+    margin-bottom: 2%;
 }
 
 .project-img img {
     height: inherit;
     width: -webkit-fill-available;
+    margin-top: 2%;
 }
+/* project title so its not to close to the techonologies sec */
+h3 {
+    margin-top: 2%;
+}
+
+.contact {
+    border-bottom: solid 4px black;
+}
+
+.contact:hover {
+    border-bottom: solid 4px white;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+/* .nav-item a {
+    color: gray;
+}
+
+.nav-item a:hover {
+    color: purple;
+} */
 
 @media (max-width: 768px) {
     .intro-left{
