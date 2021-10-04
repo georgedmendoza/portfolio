@@ -64,8 +64,16 @@ section{
 .project{
     /* background-color: lightblue; */
     border: 1px solid white;
-    margin-right: auto;
+    /* margin-right: auto; */
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.spaceL {
+    margin-right: auto;
+}
+
+.spaceR {
+    margin-left: auto;
 }
 
 .project a{
@@ -108,5 +116,51 @@ h3 {
         margin-bottom: 0;
         position: relative;
         width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .intro-left{
+        height: 30vh;
+        margin-bottom: 0;
+        position: relative;
+        width: 100%;
+    }
+    .panel-right{
+        width: 100%;
+    }
+    .tech{
+        margin-bottom: 15%;
+    }
+
+    .mar {
+        margin-top: 4%;
+        margin-bottom: 1%;
+    }
+}
+
+@media (max-width: 1049px) {
+    .tech{
+        margin-bottom: 14%;
+    }
+      
+}
+
+@media (max-width: 1200px) {
+    .intro-left{
+        height: 30vh;
+        margin-bottom: 0;
+        position: relative;
+        width: 100%;
+    }
+    .panel-right{
+        width: 100%;
+    }
+    .project-img{
+        width: 20 rem;
+    }
+    .spaceL .spaceR{
+        margin-right: 0;
+        margin-left: 0;
     }
 }
