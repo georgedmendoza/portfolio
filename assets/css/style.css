@@ -59,6 +59,17 @@ section{
     color: white;
 }
 
+.project{
+    /* background-color: lightblue; */
+    border: 1px solid white;
+    margin-right: auto;
+}
+
+.project-img img {
+    height: inherit;
+    width: -webkit-fill-available;
+}
+
 @media (max-width: 768px) {
     .intro-left{
         height: 30vh;
